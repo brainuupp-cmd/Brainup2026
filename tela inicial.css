@@ -1,0 +1,30 @@
+
+    body {
+      background-color: #e8e4dc;
+    }
+
+    .btn-dourado {
+      background-color: #c9a64b;
+      color: white;
+      border: none;
+    }
+
+    .btn-dourado:hover {
+      background-color: #b8953f;
+    }
+
+    .card-custom {
+      border-radius: 20px;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .titulo-principal {
+      font-weight: bold;
+      margin-top: 80px;
+    }
+
+    .subtitulo {
+      color: #555;
+      margin-bottom: 30px;
+    }
