@@ -1,0 +1,61 @@
+/* Fundo da página */
+body {
+  background-color: #f5efe6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card principal */
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* Título principal */
+.card h4 {
+  font-weight: 700;
+}
+
+/* Inputs */
+.form-control,
+.form-select {
+  height: 50px;
+  border-radius: 30px;
+  border: 1px solid #e0e0e0;
+  padding-left: 20px;
+  transition: all 0.3s ease;
+}
+
+/* Efeito foco */
+.form-control:focus,
+.form-select:focus {
+  border-color: #d4af37;
+  box-shadow: 0 0 0 0.15rem rgba(212, 175, 55, 0.25);
+}
+
+/* Botão dourado */
+.btn-warning {
+  background: linear-gradient(90deg, #caa433, #e3c15a);
+  border: none;
+  height: 50px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* Hover botão */
+.btn-warning:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(202, 164, 51, 0.4);
+}
+
+/* Link entrar */
+a.text-warning {
+  color: #caa433 !important;
+}
+
+a.text-warning:hover {
+  text-decoration: underline;
+}
